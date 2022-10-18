@@ -73,4 +73,27 @@ i{
     text-align:center;
 
 }
+/* -------------------------------------------------------- */
+.dropdown-content{
+    display: none;
+    width: 100px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+  }
+  .dropdown-content a{
+    display: block;
+    width: 100px;
+    padding: 20px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(119, 116, 116);
+  }
+  .delete_icon{
+    color: red;
 
+  }
+  .edit_icon{
+    color: blue;
+  }
+  .show{
+    display: block;
+  }
